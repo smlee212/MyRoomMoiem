@@ -1,2 +1,228 @@
+# 마룸모 (마이 룸에서 하는 스터디 모임)
 
-안녕 나는 리드미!
+판매자를 위한 흥정, 구매자를 위한 거래
+
+## Table of Content
+
+1. [서비스 개요](#1-서비스-개요)
+1. [기술 스택](#2-기술-스택)
+1. [한눈에 보는 시스템 아키텍처](#3-한눈에-보는-시스템-아키텍처)
+1. [팀원 소개](#4-팀원-소개)
+1. [Git Flow Convention](#5-git-flow-convention)
+1. [Commit Message Convention](#6-commit-message-convention)
+1. [BackEnd Structure](#7-backend-structure)
+1. [FrontEnd Structure](#8-frontend-structure)
+1. [Wire Frames](#9-wire-frames)
+1. [ERD](#10-erd)
+
+## 1. 서비스 개요
+
+저희 서비스가 추구하는 목표는 **하나의 스터디 플랫폼에서 모든 것을 해결하자**입니다.
+
+- 자신의 할일와 일정 관리를 간편하게 할 수 있고, 통계를 한 눈에 볼 수 있습니다
+- 독립적인 스터디 룸을 만들어 스터디원들과 소통, 자료 공유, 일정 관리 등을 할 수 있습니다.
+- 스터디 룸에서는 실시간 채팅, 화상 채팅, 게시판, 질문 게시판 등을 제공합니다
+
+## 2. 기술 스택
+
+### FrontEnd
+
+| <div align="center"><img src="./assets/readme/html.svg" alt="HTML5" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/css.svg" alt="CSS3" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/js.png" alt="JavaScript" width="50px" height="50px" /></div> |
+| :-----------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+|                                      &nbsp;&nbsp;HTML5&nbsp;&nbsp;                                      |                         &nbsp;&nbsp;&nbsp;&nbsp;CSS3&nbsp;&nbsp;&nbsp;&nbsp;                         |                                                JavaScript                                                 |
+
+| <div align="center"><img src="./assets/readme/react.svg" alt="React" width="50px" height="50px" /> </div> | <div align="center"><img src="./assets/readme/redux-cover-imgage.jpg" alt="Recoil" width="50px" height="50px" /> </div> |
+| :------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: |
+|                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;React&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     |                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Redux&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     |                                                        Styled-components                                                        |
+
+| <div align="center"><img src="./assets/readme/axios.png" alt="axios" width="100px" height="50px" /> </div> | <div align="center"><img src="./assets/readme/openvidu.png" alt="OpenVidu" width="100px" height="50px" /> </div> |
+| :-------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
+|                                                   AXIOS                                                   |                                                    OpenVidu                                                     |
+
+### BackEnd
+
+| <div align="center"><img src="./assets/readme/java.svg" alt="java" width="50px" height="50px" /> </div> | <div align="center"><img src="./assets/readme/springboot.png" alt="springboot" width="100px" height="50px" /> </div> | <div align="center"><img src="./assets/readme/springsecurity.png" alt="springsecurity" width="100px" height="50px" /></div> | <div align="center"><img src="./assets/readme/gradle.png" alt="gradle" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/hibernate.png" alt="hibernate" width="50px" height="50px" /></div> |
+| :----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
+|                                                  Java                                                  |                                                     Spring-Boot                                                     |                                                      Spring-Security                                                       |                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gradle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     |                                  &nbsp;&nbsp;&nbsp;Hibernate&nbsp;&nbsp;&nbsp;                                  |
+
+| <div align="center"><img src="./assets/readme/mysql.png" alt="mysql" width="70px" height="50px" /> </div> | <div align="center"><img src="./assets/readme/postman.svg" alt="postman" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/websocket.svg" alt="websocket" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/mongo.png" alt="redis" width="70px" height="50px" /></div> | <div align="center"><img src="./assets/readme/swagger.png" alt="swagger" width="50px" height="50px" /></div> | 
+| :--------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: 
+|                                                  MySQL                                                   |                                                   Postman                                                   |                                                    Websocket                                                    |                                                  mongoDB                                                  |                                                  swagger                                                  |
+
+### DevOps
+
+| <div align="center"><img src="./assets/readme/docker.png" alt="docker" width="50px" height="50px" /> </div> | <div align="center"><img src="./assets/readme/jenkins.png" alt="jenkins" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/nginx.png" alt="nginx" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/ec2.png" alt="EC2" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/s3.png" alt="S3" width="50px" height="50px" /></div> |
+| :--------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+|                                                   Docker                                                   |                                                   Jenkins                                                   |                                                  NginX                                                  |                                               AWS EC2                                               |                                              AWS S3                                               |
+
+## 3. 한눈에 보는 시스템 아키텍처
+
+![system architecture](/assets/readme/system_architecture.png)
+
+## 4. 팀원 소개
+
+이상민 (팀장): Backend 총괄 + Frontend 개발 + 프로젝트 관리
+
+
+조현동 (팀원): Backend 개발 + 배포
+
+
+오준호 (팀원): Backend 개발 + DB 관리
+
+
+박유진 (팀원): Frontend 총괄 + 디자인
+
+
+전태영 (팀원): Frontend 개발 + 발표
+
+
+곽준영 (팀원): Frontend 개발
+
+## 5. Git Flow Convention
+
+Branch Types
+
+- master: 제품으로 출시될 수 있는 브랜치
+- develop-fe: Frontend 개발 브랜치
+- develop-be: Backend 개발 브랜치
+- feature/fe-xxx: Frontend 기능 개발 브랜치
+- feature/be-xxx: Backend 기능 개발 브랜치
+
+
+## 6. Commit Message Convention
+
+Commit Message Types
+
+- 🔊 add: 파일을 추가하였을 때
+- :sparkles: feat: 새로운 기능을 추가했을 때
+- ⛏ fix: 내 코드 베이스에서 발생한 버그를 수정했을 때
+- 💡 refactor: 코드 리펙토링했을 때
+- 📝: docs: 문서 수정
+- 🎨 style: 코드 형식, 정렬, 주석 등을 바꿨을 때
+- 🧪 test: 테스트 코드 추가 또는 수정했을 때
+- 💫 chore: 그 외 기타사항
+
+## 7. BackEnd Structure
+
+```
+BackEnd
+.
+└── main                           
+    ├── java
+    │   └── com
+    │       └── a406
+    │           └── mrm
+    │               ├── common            
+    │               │   ├── filter
+    │               │   ├── handler
+    │               │   └── util
+    │               ├── config              
+    │               │   ├── auth
+    │               │   ├── jwt
+    │               │   └── oauth
+    │               │       └── provider
+    │               ├── model            
+    │               │    ├── entity
+    │               │    └── dto
+    │               ├── controller          
+    │               ├── repository         
+    │               └── service           
+    └── resources                           
+        ├── README.md
+        ├── application.properties
+        └── email.properties
+
+```
+
+## 8. FrontEnd Structure
+
+```
+FrontEnd
+.
+├── public                 
+│   └── images          
+└── src               
+    ├── OCR    
+    ├── sagas           
+    ├── sagas        
+    ├── slice              
+    └── components     
+        ├── Calendar    
+        │   └── DatePicker   
+        ├── Category   
+        ├── DnD   
+        │   └── styles   
+        ├── GroupRoom   
+        │   ├── Board   
+        │   │   └── ArticlePage   
+        │   ├── Chat   
+        │   ├── GroupRoomItem   
+        │   ├── TimeList  
+        │   └── OpenVidu    
+        ├── ImageUpload   
+        ├── Login   
+        ├── Modal   
+        │   ├── Group   
+        │   ├── Profile   
+        │   └── Todo    
+        ├── MyRoom   
+        │   └── MyRoomItem   
+        ├── ScheduleThings
+        │   └── styles   
+        └── TodoThings     
+            └── styles   
+
+```
+
+## 9. Wire Frames
+
+- 로그인 화면 (회원가입, 아이디 찾기, 비밀번호 찾기)
+
+  <img src='./assets/wireframes/login.png'/>
+
+  <table>
+    <tr>
+      <td><img src='./assets/wireframes/signup.png' width="400px" height="200px"/></td>
+      <td><img src='./assets/wireframes/findId.png' width="400px" height="200px"/></td>
+      <td><img src='./assets/wireframes/findPwd.png' width="400px" height="200px"/></td>
+    </tr>
+  </table>
+
+
+- 초기 메인 화면 (회원 가입후 첫 로그인 시)
+  <img src='./assets/wireframes/myPage_init.png'/>
+
+- 그룹 생성 및 참가
+  <img src='./assets/wireframes/room_create_join.png'/>
+
+- 활성화 된 메인 화면 (자신의 todo list와 통계, 메모, 일정을 한눈에 볼 수 있다)
+  <img src='./assets/wireframes/myPage_after.png'/>
+
+- 프로필 보기 및 수정
+  <img src='./assets/wireframes/profile.png'/>
+
+- 참가한 room의 화면 (게시판 종류, todo 관리, 메모, time table, 참가 인원 목록 등이 있다)
+  <img src='./assets/wireframes/roomPage.png'/>
+
+- 할일, 일정 생성 (원하는 날짜의 todo와 일정을 추가할 수 있다)
+  <img src='./assets/wireframes/create_todo.png'/>
+  <img src='./assets/wireframes/create_schedule.png'/>
+
+- 일정 화면 (오른쪽 상단 달력 클릭 시 확인할 수 있다)
+  <img src='./assets/wireframes/schedule.png'/> 
+
+- 채팅방 입장 화면
+  <img src='./assets/wireframes/chat.png'/>
+
+- 화상 채팅방 입장 화면
+  <img src='./assets/wireframes/camChat.png'/>
+
+- 게시판 입장 화면
+  <img src='./assets/wireframes/board.png'/>
+
+- Q&A 게시판 입장 화면
+  <img src='./assets/wireframes/qna.png'/>
+
+## 10. ERD
+
+![MRM ERD](/assets/readme/mrm_erd.png)
