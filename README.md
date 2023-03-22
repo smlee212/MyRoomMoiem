@@ -8,12 +8,10 @@
 1. [기술 스택](#2-기술-스택)
 1. [한눈에 보는 시스템 아키텍처](#3-한눈에-보는-시스템-아키텍처)
 1. [팀원 소개](#4-팀원-소개)
-1. [Git Flow Convention](#5-git-flow-convention)
-1. [Commit Message Convention](#6-commit-message-convention)
-1. [BackEnd Structure](#7-backend-structure)
-1. [FrontEnd Structure](#8-frontend-structure)
-1. [Wire Frames](#9-wire-frames)
-1. [ERD](#10-erd)
+1. [BackEnd Structure](#5-backend-structure)
+1. [FrontEnd Structure](#6-frontend-structure)
+1. [Wire Frames](#7-wire-frames)
+1. [ERD](#8-erd)
 
 ## 1. 서비스 개요
 
@@ -78,31 +76,7 @@
 
 곽준영 (팀원): Frontend 개발
 
-## 5. Git Flow Convention
-
-Branch Types
-
-- master: 제품으로 출시될 수 있는 브랜치
-- develop-fe: Frontend 개발 브랜치
-- develop-be: Backend 개발 브랜치
-- feature/fe-xxx: Frontend 기능 개발 브랜치
-- feature/be-xxx: Backend 기능 개발 브랜치
-
-
-## 6. Commit Message Convention
-
-Commit Message Types
-
-- 🔊 add: 파일을 추가하였을 때
-- :sparkles: feat: 새로운 기능을 추가했을 때
-- ⛏ fix: 내 코드 베이스에서 발생한 버그를 수정했을 때
-- 💡 refactor: 코드 리펙토링했을 때
-- 📝: docs: 문서 수정
-- 🎨 style: 코드 형식, 정렬, 주석 등을 바꿨을 때
-- 🧪 test: 테스트 코드 추가 또는 수정했을 때
-- 💫 chore: 그 외 기타사항
-
-## 7. BackEnd Structure
+## 5. BackEnd Structure
 
 ```
 BackEnd
@@ -134,7 +108,7 @@ BackEnd
 
 ```
 
-## 8. FrontEnd Structure
+## 6. FrontEnd Structure
 
 ```
 FrontEnd
@@ -174,7 +148,7 @@ FrontEnd
 
 ```
 
-## 9. Wire Frames
+## 7. Wire Frames
 
 - 로그인 화면 (회원가입, 아이디 찾기, 비밀번호 찾기)
 
@@ -223,6 +197,6 @@ FrontEnd
 - Q&A 게시판 입장 화면
   <img src="./assets/wireframes/qna.PNG"/>
 
-## 10. ERD
+## 8. ERD
 
 ![MRM ERD](/assets/readme/mrm_erd.png)
