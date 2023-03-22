@@ -1,6 +1,6 @@
 # 마룸모 (마이 룸에서 하는 스터디 모임)
 
-판매자를 위한 흥정, 구매자를 위한 거래
+하나의 플랫폼에서 진행되는 스터디 활동
 
 ## Table of Content
 
@@ -45,9 +45,9 @@
 | :----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
 |                                                  Java                                                  |                                                     Spring-Boot                                                     |                                                      Spring-Security                                                       |                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gradle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     |                                  &nbsp;&nbsp;&nbsp;Hibernate&nbsp;&nbsp;&nbsp;                                  |
 
-| <div align="center"><img src="./assets/readme/mysql.png" alt="mysql" width="70px" height="50px" /> </div> | <div align="center"><img src="./assets/readme/postman.svg" alt="postman" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/websocket.svg" alt="websocket" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/mongo.png" alt="redis" width="70px" height="50px" /></div> | <div align="center"><img src="./assets/readme/swagger.png" alt="swagger" width="50px" height="50px" /></div> | 
-| :--------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: 
-|                                                  MySQL                                                   |                                                   Postman                                                   |                                                    Websocket                                                    |                                                  mongoDB                                                  |                                                  swagger                                                  |
+| <div align="center"><img src="./assets/readme/mysql.png" alt="mysql" width="70px" height="50px" /> </div> | <div align="center"><img src="./assets/readme/websocket.svg" alt="websocket" width="50px" height="50px" /></div> | <div align="center"><img src="./assets/readme/mongo.png" alt="redis" width="70px" height="50px" /></div> | <div align="center"><img src="./assets/readme/swagger.png" alt="swagger" width="50px" height="50px" /></div> | 
+| :--------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: 
+|                                                  MySQL                                                   |                                                    Websocket                                                    |                                                  mongoDB                                                  |                                                  swagger                                                  |
 
 ### DevOps
 
@@ -178,50 +178,50 @@ FrontEnd
 
 - 로그인 화면 (회원가입, 아이디 찾기, 비밀번호 찾기)
 
-  <img src='./assets/wireframes/login.png'/>
+  <img src="./assets/wireframes/login.PNG"/>
 
   <table>
     <tr>
-      <td><img src='./assets/wireframes/signup.png' width="400px" height="200px"/></td>
-      <td><img src='./assets/wireframes/findId.png' width="400px" height="200px"/></td>
-      <td><img src='./assets/wireframes/findPwd.png' width="400px" height="200px"/></td>
+      <td><img src="./assets/wireframes/signup.PNG" width="400px" height="200px"/></td>
+      <td><img src="./assets/wireframes/findId.PNG" width="400px" height="200px"/></td>
+      <td><img src="./assets/wireframes/findPwd.PNG" width="400px" height="200px"/></td>
     </tr>
   </table>
 
 
 - 초기 메인 화면 (회원 가입후 첫 로그인 시)
-  <img src='./assets/wireframes/myPage_init.png'/>
+  <img src="./assets/wireframes/myPage_init.PNG"/>
 
 - 그룹 생성 및 참가
-  <img src='./assets/wireframes/room_create_join.png'/>
+  <img src="./assets/wireframes/room_create_join.PNG"/>
 
 - 활성화 된 메인 화면 (자신의 todo list와 통계, 메모, 일정을 한눈에 볼 수 있다)
-  <img src='./assets/wireframes/myPage_after.png'/>
+  <img src="./assets/wireframes/myPage_after.PNG"/>
 
 - 프로필 보기 및 수정
-  <img src='./assets/wireframes/profile.png'/>
+  <img src="./assets/wireframes/profile.PNG"/>
 
 - 참가한 room의 화면 (게시판 종류, todo 관리, 메모, time table, 참가 인원 목록 등이 있다)
-  <img src='./assets/wireframes/roomPage.png'/>
+  <img src="./assets/wireframes/roomPage.PNG"/>
 
 - 할일, 일정 생성 (원하는 날짜의 todo와 일정을 추가할 수 있다)
-  <img src='./assets/wireframes/create_todo.png'/>
-  <img src='./assets/wireframes/create_schedule.png'/>
+  <img src="./assets/wireframes/create_todo.PNG"/>
+  <img src="./assets/wireframes/create_schedule.PNG"/>
 
 - 일정 화면 (오른쪽 상단 달력 클릭 시 확인할 수 있다)
-  <img src='./assets/wireframes/schedule.png'/> 
+  <img src="./assets/wireframes/schedule.PNG"/> 
 
 - 채팅방 입장 화면
-  <img src='./assets/wireframes/chat.png'/>
+  <img src="./assets/wireframes/chat.PNG"/>
 
 - 화상 채팅방 입장 화면
-  <img src='./assets/wireframes/camChat.png'/>
+  <img src="./assets/wireframes/camChat.PNG"/>
 
 - 게시판 입장 화면
-  <img src='./assets/wireframes/board.png'/>
+  <img src="./assets/wireframes/board.PNG"/>
 
 - Q&A 게시판 입장 화면
-  <img src='./assets/wireframes/qna.png'/>
+  <img src="./assets/wireframes/qna.PNG"/>
 
 ## 10. ERD
 
